@@ -1,10 +1,23 @@
+import HelloComponent from "./data.js"
 
-export default function Home() {
-    let name = "Jang"
-    return (
-      <div>
-        <h1>장바구니입니다</h1>
-      </div>
-    )
-  }
-  
+export default function Cart() {
+  return (
+    <div>
+      <h4 className="title">Cart</h4>
+      <CartItem/>
+      <CartItem/>
+      <CartItem />
+      <HelloComponent />
+    </div>
+  )
+}
+
+function CartItem() {
+  return (
+    <div className="cart-item">
+      <p>상품명</p>
+      <p>$40</p>
+      <p>1개</p>
+    </div>
+  )
+}
