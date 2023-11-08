@@ -1,7 +1,7 @@
-function HelloComponent() {
-    return (
-      <h1>안녕하세요</h1>
-    );
-  }
+// function HelloComponent() {
+//     return (
+//       <h1>안녕하세요</h1>
+//     );
+//   }
   
-  export default HelloComponent;
+//   export default HelloComponent;
